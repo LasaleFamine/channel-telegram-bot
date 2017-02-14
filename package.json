@@ -1,0 +1,20 @@
+{
+  "name": "channel-telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot for Telegram to simply send actions to a channel (Telebot wrapper)",
+  "main": "src/index.js",
+  "repository": "https://github.com/lasalefamine/channel-telegram-bot",
+  "author": "LasaleFamine",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "telebot": "^1.0.7"
+  },
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "xo": "^0.17.1"
+  }
+}
