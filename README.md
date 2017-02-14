@@ -1,6 +1,6 @@
 # channel-telegram-bot [![Build Status](https://travis-ci.org/LasaleFamine/channel-telegram-bot.svg?branch=master)](https://travis-ci.org/LasaleFamine/channel-telegram-bot)
 
-> Send a single message to an administered channel. 
+> Send an ***action*** to an administered channel.
 
 Basically a wrapper of [Telebot](https://github.com/kosmodrey/telebot/) but that only sends a message to a channel of your choice. As an NPM package :package:
 
@@ -27,7 +27,7 @@ channelBot.sendMessage('@your_awesome_channel_name', `Prepare yourself ${niceEmo
 
 ## API
 
-The `token` is supported also if exported as **env variable** as `CHANNELBOT_TOKEN`:  
+The `token` is supported also if exported as **env variable** as `CHANNELBOT_TOKEN`:
 
 ```
 $ export CHANNELBOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
