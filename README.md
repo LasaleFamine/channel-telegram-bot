@@ -2,7 +2,7 @@
 
 > Send an ***action*** to an administered channel.
 
-Basically a wrapper of [Telebot](https://github.com/kosmodrey/telebot/) but that only sends a message to a channel of your choice. As an NPM package :package:
+Basically a wrapper of [Telebot](https://github.com/kosmodrey/telebot/) but that only sends a actions to a channel of your choice. As an NPM package :package:
 
 
 ## Install
